@@ -1,7 +1,7 @@
 Deep_learning_for_powerline_monitoring_using_UAS_imagery
 ==============================
 
-The goal of this project is to develop a deep learning-based approach for automated damage detection in distribution power line inspection images. The proposed method will be trained on a dataset of high-resolution images labeled with different types of damage and will be able to identify and classify electric transmission equipment.
+The goal of this project is to develop a deep learning approach for automated damage detection in distribution power line inspection images. The method will be trained on a high-resolution image dataset labeled with different types of equipment and damage, and it will be able to identify and classify electric transmission equipment and determine if it is damaged or not.
 
 Project Organization
 ------------
