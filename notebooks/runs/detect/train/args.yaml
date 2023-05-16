@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: null
-data: c:\Farid\gitProjects\power_line_inspection_yolov8\data\raw\data.yaml
-epochs: 100
+data: c:\Farid\gitProjects\power_line_inspection_yolov8\data\data.yaml
+epochs: 5
 patience: 50
 batch: 8
 imgsz: 640
