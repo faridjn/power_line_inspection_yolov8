@@ -13,7 +13,7 @@ workers: 8
 project: null
 name: null
 exist_ok: false
-pretrained: false
+pretrained: true
 optimizer: SGD
 verbose: true
 seed: 0

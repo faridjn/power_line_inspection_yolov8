@@ -10,11 +10,19 @@ PROFILE = default
 PROJECT_NAME = deep_learning_for_powerline_monitoring_using_uas_imagery
 PYTHON_INTERPRETER = python3
 
+GPU = 1
+CUDNN = 1
+OPENCV = 1
+
 ifeq (,$(shell which conda))
 HAS_CONDA=False
 else
 HAS_CONDA=True
 endif
+
+
+
+
 
 #################################################################################
 # COMMANDS                                                                      #
