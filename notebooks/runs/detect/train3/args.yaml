@@ -1,10 +1,10 @@
 task: detect
 mode: train
-model: yolov8n.yaml
+model: yolov8n.pt
 data: /home/farid_javadnejad/power_line_inspection_yolov8/data/data.yaml
-epochs: 1000
+epochs: 500
 patience: 50
-batch: 256
+batch: 64
 imgsz: 768
 save: true
 save_period: -1
@@ -14,7 +14,7 @@ workers: 8
 project: null
 name: null
 exist_ok: false
-pretrained: false
+pretrained: true
 optimizer: SGD
 verbose: true
 seed: 0
@@ -62,7 +62,7 @@ simplify: false
 opset: null
 workspace: 4
 nms: false
-lr0: 0.001
+lr0: 0.01
 lrf: 0.01
 momentum: 0.937
 weight_decay: 0.0005
